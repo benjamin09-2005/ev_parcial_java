@@ -1,7 +1,7 @@
 package com.evjava.demo.service;
 
-import com.evjava.demo.model.Usuario;
-import com.evjava.demo.repository.UsuarioRepository;
+import com.evjava.demo.model.Pedido;
+import com.evjava.demo.repository.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,33 +9,33 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UsuarioService {
+public class PedidoService {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private PedidoRepository pedidoRepository;
 
-    public List<Usuario> obtenerTodos() {
-        return usuarioRepository.findAll();
+    public List<Pedido> obtenerTodos() {
+        return pedidoRepository.findAll();
     }
 
-    public Optional<Usuario> obtenerPorId(Long id) {
-        return usuarioRepository.findById(id);
+    public Optional<Pedido> obtenerPorId(Long id) {
+        return pedidoRepository.findById(id);
     }
 
-    public Usuario guardarUsuario(Usuario usuario) {
-        return usuarioRepository.save(usuario);
+    public Pedido guardarPedido(Pedido pedido) {
+        return pedidoRepository.save(pedido);
     }
 
-    public Usuario actualizarUsuario(Long id, Usuario detallesUsuario) {
-        return usuarioRepository.findById(id).map(usuario -> {
-            usuario.setNombre(detallesUsuario.getNombre());
-            usuario.setEmail(detallesUsuario.getEmail());
-            usuario.setDireccion(detallesUsuario.getDireccion());
-            return usuarioRepository.save(usuario);
-        }).orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+    public Pedido actualizarPedido(Long id, Pedido detallesPedido) {
+        return pedidoRepository.findById(id).map(pedido -> {
+            pedido.setFecha(detallesPedido.getFecha());
+            pedido.setTotal(detallesPedido.getTotal());
+            pedido.setUsuarioId(detallesPedido.getUsuarioId());
+            return pedidoRepository.save(pedido);
+        }).orElseThrow(() -> new RuntimeException("Pedido no encontrado"));
     }
 
-    public void eliminarUsuario(Long id) {
-        usuarioRepository.deleteById(id);
+    public void eliminarPedido(Long id) {
+        pedidoRepository.deleteById(id);
     }
 }

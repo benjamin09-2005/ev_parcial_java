@@ -1,7 +1,8 @@
 package com.evjava.demo.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,12 +20,13 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotNull(message = "La fecha es obligatoria")
     private LocalDate fecha;
 
+    @Min(value = 0, message = "El total no puede ser negativo")
     private Double total;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "usuario_id")
-    @JsonIgnore
-    private Usuario usuario;
+    @NotNull(message = "El ID del usuario es obligatorio")
+    @Column(name = "usuario_id")
+    private Long usuarioId;
 }
