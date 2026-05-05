@@ -8,14 +8,17 @@
         <version>3.3.4</version>
         <relativePath/>
     </parent>
+
     <groupId>com.evjava</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>usuario-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>Proyecto para Level-Up</description>
+    <name>usuario-service</name>
+    <description>Microservicio de gestión de usuarios</description>
+
     <properties>
         <java.version>21</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -71,6 +74,7 @@
                     </excludes>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

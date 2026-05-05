@@ -4,7 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="" />
+    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Notificaciones/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pagos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pagos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pagos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pagos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pedido/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pedido/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pedido/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pedido/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/controller/CategoriaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Categoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Notificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Pago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Reporte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/CategoriaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/NotificacionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/PagoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/PedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/ReporteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/service/CategoriaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/MS-Producto-Categoria/src/test/java/com/evjava/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Producto-Categoria/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Producto-Categoria/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Reportes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Usuario/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/controller/CategoriaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Categoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Notificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Pago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/model/Reporte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/CategoriaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/NotificacionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/PagoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/PedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/repository/ReporteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/service/CategoriaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/java/com/evjava/demo/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Usuario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Usuario/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
