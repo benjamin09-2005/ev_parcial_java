@@ -10,19 +10,18 @@
 1. Abrir IntelliJ IDEA.
 2. Seleccionar "Get from VCS" o "Clone Repository".
 3. Clonar el repositorio:
-   https://github.com/xxxxx
-
-4. Una vez abierto el proyecto, ir a:
+    https://github.com/benjamin09-2005/ev_parcial_java
+5. Una vez abierto el proyecto, ir a:
    File > Project Structure
 
    Verificar:
    - Project SDK: 21
    - Language Level: 21
 
-5. Esperar a que Maven descargue las dependencias automáticamente.
+6. Esperar a que Maven descargue las dependencias automáticamente.
    (Si no ocurre, presionar "Reload Maven Project")
 
-6. Ejecutar cada microservicio desde su clase principal:
+7. Ejecutar cada microservicio desde su clase principal:
    `DemoApplication.java`
 
 ## Puertos de los microservicios
