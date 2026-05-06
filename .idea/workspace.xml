@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/model/Notificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/model/Notificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/service/NotificacionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/service/PagoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/controller/ReporteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/controller/ReporteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/model/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/model/Reporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/service/ReporteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/service/ReporteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
