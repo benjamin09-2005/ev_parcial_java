@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Usuario/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Reportes/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Producto-Categoria/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Pedido/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Pagos/pom.xml" />
+        <option value="$PROJECT_DIR$/MS-Notificaciones/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="ms-21" project-jdk-type="JavaSDK" />
+</project>

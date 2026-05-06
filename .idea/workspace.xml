@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/service/NotificacionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/service/PagoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/service/UsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/controller/ReporteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/controller/ReporteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/model/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/model/Reporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/service/ReporteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Reportes/src/main/java/com/evjava/demo/service/ReporteService.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,26 +39,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoApplication.executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.notificaciones-service [clean].executor": "Run",
+    "Maven.pagos-service [clean].executor": "Run",
+    "Maven.pedido-service [clean].executor": "Run",
+    "Maven.producto-categoria-service [clean].executor": "Run",
+    "Maven.reportes-service [clean].executor": "Run",
+    "Maven.usuario-service [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.DemoApplication (5)">
+    <configuration name="DemoApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
-      <module name="demo" />
+      <module name="producto-categoria-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evjava.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
+      <module name="usuario-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evjava.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
+      <module name="reportes-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evjava.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
+      <module name="pedido-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evjava.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
+      <module name="pagos-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.evjava.demo.*" />
@@ -82,7 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="Application.DemoApplication (5)" />
+        <item itemvalue="Application.DemoApplication (4)" />
+        <item itemvalue="Application.DemoApplication (3)" />
+        <item itemvalue="Application.DemoApplication (2)" />
+        <item itemvalue="Application.DemoApplication (1)" />
       </list>
     </recent_temporary>
   </component>
