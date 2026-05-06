@@ -1,7 +1,7 @@
 package com.evjava.demo.service;
 
-import com.evjava.demo.model.Usuario;
-import com.evjava.demo.repository.UsuarioRepository;
+import com.evjava.demo.model.Notificacion;
+import com.evjava.demo.repository.NotificacionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,33 +9,33 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UsuarioService {
+public class NotificacionService {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private NotificacionRepository notificacionRepository;
 
-    public List<Usuario> obtenerTodos() {
-        return usuarioRepository.findAll();
+    public List<Notificacion> obtenerTodas() {
+        return notificacionRepository.findAll();
     }
 
-    public Optional<Usuario> obtenerPorId(Long id) {
-        return usuarioRepository.findById(id);
+    public Optional<Notificacion> obtenerPorId(Long id) {
+        return notificacionRepository.findById(id);
     }
 
-    public Usuario guardarUsuario(Usuario usuario) {
-        return usuarioRepository.save(usuario);
+    public Notificacion guardarNotificacion(Notificacion notificacion) {
+        return notificacionRepository.save(notificacion);
     }
 
-    public Usuario actualizarUsuario(Long id, Usuario detallesUsuario) {
-        return usuarioRepository.findById(id).map(usuario -> {
-            usuario.setNombre(detallesUsuario.getNombre());
-            usuario.setEmail(detallesUsuario.getEmail());
-            usuario.setDireccion(detallesUsuario.getDireccion());
-            return usuarioRepository.save(usuario);
-        }).orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+    public Notificacion actualizarNotificacion(Long id, Notificacion detallesNotificacion) {
+        return notificacionRepository.findById(id).map(notificacion -> {
+            notificacion.setTipo(detallesNotificacion.getTipo());
+            notificacion.setMensaje(detallesNotificacion.getMensaje());
+            notificacion.setUsuarioId(detallesNotificacion.getUsuarioId());
+            return notificacionRepository.save(notificacion);
+        }).orElseThrow(() -> new RuntimeException("Notificación no encontrada"));
     }
 
-    public void eliminarUsuario(Long id) {
-        usuarioRepository.deleteById(id);
+    public void eliminarNotificacion(Long id) {
+        notificacionRepository.deleteById(id);
     }
 }

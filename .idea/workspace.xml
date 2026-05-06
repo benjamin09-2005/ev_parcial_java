@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="" />
+    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/model/Notificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/model/Notificacion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
