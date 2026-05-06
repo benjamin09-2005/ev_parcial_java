@@ -1,7 +1,7 @@
 package com.evjava.demo.service;
 
-import com.evjava.demo.model.Usuario;
-import com.evjava.demo.repository.UsuarioRepository;
+import com.evjava.demo.model.Pago;
+import com.evjava.demo.repository.PagoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,33 +9,34 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UsuarioService {
+public class PagoService {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private PagoRepository pagoRepository;
 
-    public List<Usuario> obtenerTodos() {
-        return usuarioRepository.findAll();
+    public List<Pago> obtenerTodos() {
+        return pagoRepository.findAll();
     }
 
-    public Optional<Usuario> obtenerPorId(Long id) {
-        return usuarioRepository.findById(id);
+    public Optional<Pago> obtenerPorId(Long id) {
+        return pagoRepository.findById(id);
     }
 
-    public Usuario guardarUsuario(Usuario usuario) {
-        return usuarioRepository.save(usuario);
+    public Pago guardarPago(Pago pago) {
+        return pagoRepository.save(pago);
     }
 
-    public Usuario actualizarUsuario(Long id, Usuario detallesUsuario) {
-        return usuarioRepository.findById(id).map(usuario -> {
-            usuario.setNombre(detallesUsuario.getNombre());
-            usuario.setEmail(detallesUsuario.getEmail());
-            usuario.setDireccion(detallesUsuario.getDireccion());
-            return usuarioRepository.save(usuario);
-        }).orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+    public Pago actualizarPago(Long id, Pago detallesPago) {
+        return pagoRepository.findById(id).map(pago -> {
+            pago.setMetodo(detallesPago.getMetodo());
+            pago.setMonto(detallesPago.getMonto());
+            pago.setFecha(detallesPago.getFecha());
+            pago.setPedidoId(detallesPago.getPedidoId());
+            return pagoRepository.save(pago);
+        }).orElseThrow(() -> new RuntimeException("Pago no encontrado"));
     }
 
-    public void eliminarUsuario(Long id) {
-        usuarioRepository.deleteById(id);
+    public void eliminarPago(Long id) {
+        pagoRepository.deleteById(id);
     }
 }
