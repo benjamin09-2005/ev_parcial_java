@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="" />
+    <list default="true" id="0d530e3f-30e5-4681-b018-6a2df22c458e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Notificaciones/src/main/java/com/evjava/demo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pagos/src/main/java/com/evjava/demo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Pedido/src/main/java/com/evjava/demo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS-Producto-Categoria/src/main/java/com/evjava/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MS-Producto-Categoria/src/main/java/com/evjava/demo/config/SecurityConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +46,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DemoApplication (1).executor": "Run",
+    "Application.DemoApplication (2).executor": "Run",
+    "Application.DemoApplication (3).executor": "Run",
+    "Application.DemoApplication (4).executor": "Run",
+    "Application.DemoApplication (5).executor": "Run",
     "Application.DemoApplication.executor": "Run",
     "Maven.demo [clean].executor": "Run",
     "Maven.notificaciones-service [clean].executor": "Run",
@@ -55,40 +65,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoApplication (5)">
+  <component name="RunManager" selected="Application.DemoApplication (2)">
     <configuration name="DemoApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
-      <module name="producto-categoria-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.evjava.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
-      <module name="usuario-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.evjava.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
       <module name="reportes-service" />
       <extension name="coverage">
@@ -101,20 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
-      <module name="pedido-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.evjava.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
       <module name="pagos-service" />
       <extension name="coverage">
@@ -127,13 +98,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evjava.demo.DemoApplication" />
+      <module name="usuario-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evjava.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoApplication (5)" />
-        <item itemvalue="Application.DemoApplication (4)" />
-        <item itemvalue="Application.DemoApplication (3)" />
         <item itemvalue="Application.DemoApplication (2)" />
         <item itemvalue="Application.DemoApplication (1)" />
+        <item itemvalue="Application.DemoApplication" />
       </list>
     </recent_temporary>
   </component>
